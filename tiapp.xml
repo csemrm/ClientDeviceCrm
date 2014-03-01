@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ti:app xmlns:ti="http://ti.appcelerator.org">
+    <sdk-version>3.2.1.GA</sdk-version>
+    <deployment-targets>
+        <target device="tizen">true</target>
+        <target device="mobileweb">true</target>
+        <target device="iphone">true</target>
+        <target device="ipad">true</target>
+        <target device="android">true</target>
+        <target device="blackberry">true</target>
+    </deployment-targets>
+    <guid>a406e9f4-38bf-40ff-b6ed-ed1c17ee11eb</guid>
+    <id>com.saratogasystems.clientdevicecrm</id>
+    <name>SaratogaCRM</name>
+    <version>6.0.5.0.4.2</version>
+    <publisher>Aptean</publisher>
+    <url>http://www.aptean.com</url>
+    <description>Saratoga CRM</description>
+    <copyright>2013 by Aptean</copyright>
+    <icon>appicon.png</icon>
+    <persistent-wifi>false</persistent-wifi>
+    <prerendered-icon>true</prerendered-icon>
+    <statusbar-style>OPAQUE_BLACK</statusbar-style>
+    <statusbar-hidden>false</statusbar-hidden>
+    <fullscreen>false</fullscreen>
+    <navbar-hidden>false</navbar-hidden>
+    <analytics>false</analytics>
+    <iphone>
+        <orientations device="iphone">
+            <orientation>Ti.UI.PORTRAIT</orientation>
+            <orientation>Ti.UI.UPSIDE_PORTRAIT</orientation>
+            <orientation>Ti.UI.LANDSCAPE_LEFT</orientation>
+            <orientation>Ti.UI.LANDSCAPE_RIGHT</orientation>
+        </orientations>
+        <orientations device="ipad">
+            <orientation>Ti.UI.PORTRAIT</orientation>
+            <orientation>Ti.UI.UPSIDE_PORTRAIT</orientation>
+            <orientation>Ti.UI.LANDSCAPE_LEFT</orientation>
+            <orientation>Ti.UI.LANDSCAPE_RIGHT</orientation>
+        </orientations>
+    </iphone>
+    <ios>
+        <plist>
+            <dict>
+                <!-- Pivotal shortcut handling - Start 
+                <key>CFBundleURLTypes</key>
+                <array>
+                    <dict>
+                        <key>CFBundleURLName</key>
+                        <string>com.pivotalcorporation.clientdevicecrm</string>
+                        <key>CFBundleURLSchemes</key>
+                        <array>
+                            <string>sccx</string>
+                        </array>
+                    </dict>
+                </array>
+                <key>CFBundleDocumentTypes</key>
+                <array>
+                    <dict>
+                        <key>CFBundleTypeIconFiles</key>
+                        <array>
+                            <string>sccx-320.png</string>
+                            <string>sccx-64.png</string>
+                        </array>
+                        <key>CFBundleTypeName</key>
+                        <string>Pivotal Shortcut</string>
+                        <key>CFBundleTypeRole</key>
+                        <string>Viewer</string>
+                        <key>LSHandlerRank</key>
+                        <string>Owner</string>
+                        <key>LSItemContentTypes</key>
+                        <array>
+                            <string>com.aptean.sccx</string>
+                        </array>
+                    </dict>
+                </array>
+                <key>UTExportedTypeDeclarations</key>
+                <array>
+                    <dict>
+                        <key>UTTypeDescription</key>
+                        <string>Pivotal Shortcut File</string>
+                        <key>UTTypeIdentifier</key>
+                        <string>com.aptean.sccx</string>
+                        <key>UTTypeTagSpecification</key>
+                        <dict>
+                            <key>public.filename-extension</key>
+                            <string>sccx</string>
+                            <key>public.mime-type</key>
+                            <string>application/sccx</string>
+                        </dict>
+                    </dict>
+                </array>
+                  Pivotal shortcut handling - End -->
+                <!-- Saratoga shortcut handling - Start -->
+                <key>CFBundleURLTypes</key>
+                <array>
+                    <dict>
+                        <key>CFBundleURLName</key>
+                        <string>com.saratogasystems.clientdevicecrm</string>
+                        <key>CFBundleURLSchemes</key>
+                        <array>
+                            <string>scrm</string>
+                        </array>
+                    </dict>
+                </array>
+                <key>CFBundleDocumentTypes</key>
+                <array>
+                    <dict>
+                        <key>CFBundleTypeIconFiles</key>
+                        <array>
+                            <string>scrm-320.png</string>
+                            <string>scrm-64.png</string>
+                        </array>
+                        <key>CFBundleTypeName</key>
+                        <string>Saratoga Shortcut</string>
+                        <key>CFBundleTypeRole</key>
+                        <string>Viewer</string>
+                        <key>LSHandlerRank</key>
+                        <string>Owner</string>
+                        <key>LSItemContentTypes</key>
+                        <array>
+                            <string>com.aptean.scrm</string>
+                        </array>
+                    </dict>
+                </array>
+                <key>UTExportedTypeDeclarations</key>
+                <array>
+                    <dict>
+                        <key>UTTypeDescription</key>
+                        <string>Saratoga Shortcut File</string>
+                        <key>UTTypeIdentifier</key>
+                        <string>com.aptean.scrm</string>
+                        <key>UTTypeTagSpecification</key>
+                        <dict>
+                            <key>public.filename-extension</key>
+                            <string>scrm</string>
+                            <key>public.mime-type</key>
+                            <string>application/scrm</string>
+                        </dict>
+                    </dict>
+                </array>
+                <!-- Sartoga shortcut handling - End -->
+            </dict>
+        </plist>
+    </ios>
+    <android xmlns:android="http://schemas.android.com/apk/res/android"/>
+    <modules/>
+    <mobileweb>
+        <precache/>
+        <splash>
+            <enabled>true</enabled>
+            <inline-css-images>true</inline-css-images>
+        </splash>
+        <theme>default</theme>
+    </mobileweb>
+    <!-- Important comments on the Plist. See embedded below.
+        <plist>
+            <dict>
+                <key>UTExportedTypeDeclarations</key>
+                <array>
+                    <dict>
+                    	// NOTE!!!!!! Deliberately do not give a UTTypeConformsTo value, otherwise Quick Look (on a real device) tries to show the shortcut in its own (poor) viewer by default, and not our app.
+                        <key>UTTypeConformsTo</key>
+                        <array>
+                            <string>public.plain-text</string>
+                            <string>public.text</string>
+                        </array>
+   -->
+</ti:app>

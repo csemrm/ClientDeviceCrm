@@ -1,0 +1,9 @@
+SCMBranch=Platform
+SCMRepository=Platform/DeviceClient/ClientDeviceCrm/Resources/DeviceClient/Model
+SCMMainlineUUID={35962c55-d8df-4d5b-a4b4-a15c6b8a0b7c}
+SCMBranchRepositoryID=1537700
+ModelBase.js;1518459142;2;1348587841;
+SettingsModel.js;1125604119;4;1348587841;
+TabGroupModel.js;2025424019;14;1348587841;
+DashboardModel.js;3536945329;19;1350678233;
+BusinessObjectModel.js;273206678;71;1358208873;

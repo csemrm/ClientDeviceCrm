@@ -1,0 +1,9 @@
+SCMBranch=Platform
+SCMRepository=Platform/DeviceClient/ClientDeviceCrm/Resources/DeviceClient/App
+SCMMainlineUUID={35962c55-d8df-4d5b-a4b4-a15c6b8a0b7c}
+SCMBranchRepositoryID=1537696
+App.js;1884975583;23;1348601852;
+GlobalEvents.js;1119324173;14;1348601852;
+Debug.js;1386737705;20;1349978307;
+LaunchHandler.js;882212395;8;1350056321;
+Login.js;3316461548;116;1358208873;

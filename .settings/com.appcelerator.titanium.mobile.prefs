@@ -1,0 +1,9 @@
+MOBILE_PROJECT_SDK_VERSION=1.7.5
+eclipse.preferences.version=1
+iosLaunchConfigurationAttributes/ATTR_MINIFY=true
+iosLaunchConfigurationAttributes/ATTR_PROJECT_NAME=ClientDeviceCrm
+iosLaunchConfigurationAttributes/appid=com.saratogasystems.clientdevicecrm
+iosLaunchConfigurationAttributes/certificate=Saratoga Systems, Inc.  (94M3DFUR5N)
+iosLaunchConfigurationAttributes/keychain=
+iosLaunchConfigurationAttributes/sdk_version=7.0
+iosLaunchConfigurationAttributes/uuid=E2EA9D0C-2903-443F-9096-36216C95E37D

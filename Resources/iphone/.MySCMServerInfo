@@ -1,0 +1,12 @@
+SCMBranch=Platform
+SCMRepository=Platform/DeviceClient/ClientDeviceCrm/Resources/iphone
+SCMMainlineUUID={35962c55-d8df-4d5b-a4b4-a15c6b8a0b7c}
+SCMBranchRepositoryID=1537712
+appicon-72.png;2311183673;1;1358208874;
+appicon.png;193696765;13;1358208874;
+Default-Landscape.png;3612312480;4;1358208874;
+Default-Portrait.png;4046417071;4;1358208874;
+sccx-320.png;3835126788;1;1358208874;
+sccx-64.png;2276221604;1;1358208874;
+scrm-320.png;3192318476;1;1358208874;
+scrm-64.png;2665937863;1;1358208874;

@@ -1,0 +1,10 @@
+eclipse.preferences.version=1
+provisioning_profiles/adhoc/B20A5692-1621-42CD-993A-553422858CBC/appid=com.pivotalcorporation.clientdevicecrm
+provisioning_profiles/adhoc/B20A5692-1621-42CD-993A-553422858CBC/name=pivotalclientdevicecrm
+provisioning_profiles/adhoc/B20A5692-1621-42CD-993A-553422858CBC/uuid=B20A5692-1621-42CD-993A-553422858CBC
+provisioning_profiles/development/59228006-DD6C-4133-B43B-3E0600F90F0B/appid=com.saratogasystems.clientdevicecrm
+provisioning_profiles/development/59228006-DD6C-4133-B43B-3E0600F90F0B/name=clientdevicecrm
+provisioning_profiles/development/59228006-DD6C-4133-B43B-3E0600F90F0B/uuid=59228006-DD6C-4133-B43B-3E0600F90F0B
+provisioning_profiles/distribution/E2EA9D0C-2903-443F-9096-36216C95E37D/appid=com.saratogasystems.clientdevicecrm
+provisioning_profiles/distribution/E2EA9D0C-2903-443F-9096-36216C95E37D/name=saratogadeviceclientcrm
+provisioning_profiles/distribution/E2EA9D0C-2903-443F-9096-36216C95E37D/uuid=E2EA9D0C-2903-443F-9096-36216C95E37D

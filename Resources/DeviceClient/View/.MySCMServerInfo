@@ -1,0 +1,10 @@
+SCMBranch=Platform
+SCMRepository=Platform/DeviceClient/ClientDeviceCrm/Resources/DeviceClient/View
+SCMMainlineUUID={35962c55-d8df-4d5b-a4b4-a15c6b8a0b7c}
+SCMBranchRepositoryID=1537708
+DashboardView.js;4061399724;20;1348587843;
+HistoryView.js;2675612794;3;1348587843;
+TabGroupView.js;3706050931;20;1348587843;
+ViewBase.js;4272494292;10;1348587843;
+BusinessObjectView.js;1351853844;60;1358208873;
+SettingsView.js;3076655728;99;1358208874;

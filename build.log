@@ -1,0 +1,39 @@
+Logfile initialized
+[INFO] logfile = /Users/hyap/Development/Pivotal Mobile/Ti320-DeviceClient/ClientDeviceCrm/build.log
+[DEBUG] /Users/hyap/Library/Application Support/Titanium/mobilesdk/osx/3.1.3.GA/android/builder.py emulator SaratogaCRM /Users/hyap/Library/android-sdk-macosx /Users/hyap/Development/Pivotal Mobile/Ti320-DeviceClient/ClientDeviceCrm com.saratogasystems.clientdevicecrm 1 WVGA854 armeabi
+[INFO] Building SaratogaCRM for Android ... one moment
+[INFO] Launching Android emulator...one moment
+[DEBUG] From: /Users/hyap/Library/android-sdk-macosx/tools/emulator
+[DEBUG] SDCard: /Users/hyap/.titanium/android2.sdcard
+[DEBUG] AVD ID: 1
+[DEBUG] AVD Skin: WVGA854
+[DEBUG] AVD ABI: armeabi
+[DEBUG] SDK: /Users/hyap/Library/android-sdk-macosx
+[INFO] Emulator is running.
+[INFO] Titanium SDK version: 3.1.3 (09/18/13 12:00 222f4d1)
+[DEBUG] Waiting for device to be ready ...
+[TRACE] adb devices returned 1 devices/emulators
+[DEBUG] Device connected... (waited 0 seconds)
+[DEBUG] waited 0.017670 seconds on emulator to get ready
+[DEBUG] com.saratogasystems.clientdevicecrm installed? False
+[INFO] Fastdev server running, deploying in Fastdev mode
+[INFO] Copying CommonJS modules...
+[INFO] Copying project resources..
+[DEBUG] LiveView not enabled
+[INFO] Tiapp.xml unchanged, skipping class generation
+[DEBUG] Processing Android resource drawables
+[ERROR] Exception occured while building Android project:
+[ERROR] Traceback (most recent call last):
+[ERROR]   File "/Users/hyap/Library/Application Support/Titanium/mobilesdk/osx/3.1.3.GA/android/builder.py", line 2598, in <module>
+[ERROR]     builder.build_and_run(False, avd_id, debugger_host=debugger_host, profiler_host=profiler_host)
+[ERROR]   File "/Users/hyap/Library/Application Support/Titanium/mobilesdk/osx/3.1.3.GA/android/builder.py", line 2316, in build_and_run
+[ERROR]     self.manifest_changed = self.generate_android_manifest(compiler)
+[ERROR]   File "/Users/hyap/Library/Application Support/Titanium/mobilesdk/osx/3.1.3.GA/android/builder.py", line 975, in generate_android_manifest
+[ERROR]     self.generate_localizations()
+[ERROR]   File "/Users/hyap/Library/Application Support/Titanium/mobilesdk/osx/3.1.3.GA/android/builder.py", line 1485, in generate_localizations
+[ERROR]     localecompiler.LocaleCompiler(self.name,self.top_dir,'android',sys.argv[1]).compile()
+[ERROR]   File "/Users/hyap/Library/Application Support/Titanium/mobilesdk/osx/3.1.3.GA/common/localecompiler.py", line 139, in compile
+[ERROR]     self.compile_for_android(file)
+[ERROR]   File "/Users/hyap/Library/Application Support/Titanium/mobilesdk/osx/3.1.3.GA/common/localecompiler.py", line 117, in compile_for_android
+[ERROR]     wfile = open(to_, 'w')
+[ERROR] IOError: [Errno 13] Permission denied: '/Users/hyap/Development/Pivotal Mobile/Ti320-DeviceClient/ClientDeviceCrm/build/android/res/values-de/strings.xml'

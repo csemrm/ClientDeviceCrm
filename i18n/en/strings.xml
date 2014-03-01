@@ -1,0 +1,7 @@
+<resources>
+	<string name="Edit">Edit</string>
+	<string name="Favourites">Favorites</string>
+	<string name="Searches">Searches</string>
+	<string name="Cancel">Cancel</string>
+	<string name="Save">Save</string>
+</resources>

@@ -1,0 +1,11 @@
+SCMBranch=Platform
+SCMRepository=Platform/DeviceClient/ClientDeviceCrm/Resources/DeviceClient/Persistence
+SCMMainlineUUID={35962c55-d8df-4d5b-a4b4-a15c6b8a0b7c}
+SCMBranchRepositoryID=1537701
+AttachmentHandler.js;2281622131;17;1348587841;
+OfflineDataCache.js;779307819;17;1348587841;
+Permissions.js;2312611877;11;1348587841;
+Properties.js;1860981812;34;1349817241;
+ImageCache.js;3157076677;22;1350678233;
+Server.js;2522558827;40;1350678233;
+MetaData.js;1353411662;37;1354300072;

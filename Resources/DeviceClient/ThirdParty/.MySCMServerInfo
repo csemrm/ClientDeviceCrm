@@ -1,0 +1,11 @@
+SCMBranch=Platform
+SCMRepository=Platform/DeviceClient/ClientDeviceCrm/Resources/DeviceClient/ThirdParty
+SCMMainlineUUID={35962c55-d8df-4d5b-a4b4-a15c6b8a0b7c}
+SCMBranchRepositoryID=1537702
+Colors.js;3258954008;1;1348587841;
+inheritance.js;1504928041;1;1348587841;
+rc4.js;1374511094;1;1348587841;
+simpledateformat.js;1813223312;1;1348587841;
+Underscore.js;2470193817;2;1348587841;
+Underscore.string.js;3018283100;1;1348587841;
+ThirdPartyUtil.js;2866190352;3;1349817241;

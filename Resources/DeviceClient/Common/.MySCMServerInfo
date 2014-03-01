@@ -1,0 +1,12 @@
+SCMBranch=Platform
+SCMRepository=Platform/DeviceClient/ClientDeviceCrm/Resources/DeviceClient/Common
+SCMMainlineUUID={35962c55-d8df-4d5b-a4b4-a15c6b8a0b7c}
+SCMBranchRepositoryID=1537697
+CommonThreadHeader.js;2107004985;8;1348587840;
+SimpleInheritance.js;1103373347;4;1348587840;
+MainThreadHeader.js;2809996674;17;1348601852;
+Util.js;1962719012;57;1354300072;
+CommonUiHeader.js;1030715768;24;1358208873;
+Constants.js;3432681509;119;1358208873;
+HttpRequest.js;2012949038;31;1358208873;
+ServerComms.js;2928296197;8;1358208873;
